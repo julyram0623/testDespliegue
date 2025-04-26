@@ -15,7 +15,7 @@ from PIL import Image
 
 # Configurar la página
 st.set_page_config(
-    page_title="Predictor de Precios de Viviendas",
+    page_title="Predictor de Precios de Viviendas de Juliana",
     page_icon="🏠",
     layout="wide"
 )
@@ -44,7 +44,7 @@ df = load_data()
 model, scaler = load_model()
 
 # Título de la aplicación
-st.title("🏠 Predictor de Precios de Viviendas")
+st.title("🏠 Predictor de Precios de Viviendas de Juliana")
 st.markdown("Esta aplicación permite predecir el precio de viviendas basado en características clave.")
 
 # Sidebar para navegación
